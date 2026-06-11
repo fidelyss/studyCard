@@ -60,6 +60,7 @@ export default function Home() {
             variant="outline"
             size="sm"
             className="text-foreground border-border hover:bg-secondary"
+            onClick={() => window.location.href = "https://go.hotmart.com/I106257340Q?dp=1"}
           >
             Entrar
           </Button>
@@ -97,7 +98,7 @@ export default function Home() {
               </div>
 
               <Button
-                onClick={handleCTA}
+                onClick={() => window.location.href = "https://go.hotmart.com/I106257340Q?dp=1"}
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-white font-poppins font-semibold text-lg md:text-xl py-7 md:py-8 rounded-lg shadow-soft-lg w-full md:w-fit transition-all duration-200 hover:shadow-lg hover:scale-105 active:scale-95"
               >
@@ -348,7 +349,7 @@ export default function Home() {
             Plano Simples
           </h2>
 
-          <div className="max-w-md mx-auto">
+          <div className="max-w-md mx-auto">,
             <Card className="border-2 border-primary shadow-soft-lg overflow-hidden">
               <div className="bg-primary text-white p-6 md:p-8 text-center">
                 <h3 className="text-2xl md:text-3xl font-poppins font-bold mb-2">
@@ -360,7 +361,7 @@ export default function Home() {
               <div className="p-6 md:p-8 space-y-6">
                 <div className="text-center">
                   <span className="text-5xl md:text-6xl font-poppins font-bold text-primary">
-                    R$ 49,90
+                    R$ 39,90
                   </span>
                   <p className="text-sm text-foreground/60 font-inter mt-2">
                     Válida por 1 ano
@@ -383,7 +384,7 @@ export default function Home() {
                 </div>
 
                 <Button
-                  onClick={handleCTA}
+                  onClick={() => window.location.href = "https://go.hotmart.com/I106257340Q?dp=1"}
                   size="lg"
                   className="w-full bg-primary hover:bg-primary/90 text-white font-poppins font-semibold text-lg py-7 rounded-lg shadow-soft-lg transition-all duration-200 hover:shadow-lg hover:scale-105 active:scale-95"
                 >
@@ -485,12 +486,12 @@ export default function Home() {
       {isScrolled && (
         <div className="fixed bottom-6 right-6 z-40 animate-in fade-in slide-in-from-bottom-4 duration-300">
           <Button
-            onClick={handleCTA}
+            onClick={() => window.location.href = "https://go.hotmart.com/I106257340Q?dp=1"}
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white font-poppins font-semibold rounded-full shadow-soft-lg px-8 py-4 flex items-center gap-2 text-base md:text-lg transition-all duration-200 hover:shadow-lg hover:scale-110 active:scale-95"
           >
             <Zap className="w-5 h-5" />
-            Comprar agora
+            Obter Agora
           </Button>
         </div>
       )}
